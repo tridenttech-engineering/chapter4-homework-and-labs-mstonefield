@@ -12,7 +12,7 @@ int main()
 	double area = 0.0;
 
 	//calculate and display area
-	area = base * height / 2;
+	area = base * height / 2.0;
 	cout << "Area: " << area << endl;
 
 	return 0;

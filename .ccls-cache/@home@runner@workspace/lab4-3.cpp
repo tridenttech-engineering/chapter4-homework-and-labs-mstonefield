@@ -6,19 +6,21 @@ using namespace std;
 
 int main()
 {
-  //declare named constant and variables
-  const double COMM_RATE = 0.1;
-  double sales = 0.0;
-  double commission = 0.0;
+  //declare variables
+   double sales = 0.0;
+   double commission = 0.0;
+   double comm_rate = 0.0;
 
-  //enter input item
+  //enter input items
   cout << "Sales amount: ";
-  cin >> sales;
+   cin >> sales;
+   cout << "Commission rate (in decimal form): ";
+   cin >> comm_rate;
 
-  //calculate and display the commision
-  commission = sales * COMM_RATE;
-  cout << "Commission: $" << commission << endl;
+  //calculate and display the commission
+   commission = sales * comm_rate;
+   cout << "Commission: $" << commission << endl;
 
   return 0;
 
-} //end of main function
+  } //end of main function
